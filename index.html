@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>My Site</title>
+  <!-- Bootstrap -->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"> -->
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@300&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Montserrat:wght@300;400&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="top_container">
+    <img class='ai' src="images/ai.png" alt="ai">
+    <img class='right_cloud' src="images/cloud.png" alt="cloud">
+    <div class="title_content">
+      <h1 class='portfolio'><span class="adrian">Adrian</span><span class='s'>'s</span> Portfolio</h1>
+      <span id='ml'>Machine Learning</span><span class="coma">,</span> <span class="finance"> Finance</span><span class="coma">,</span><span> and</span><span id='web'> Web Development</span>
+      <!-- <span> and</span> -->
+      <!-- <span class='robotics'> Robotics</span> -->
+    </div>
+    <img class='left_cloud' src="images/cloud.png" alt="cloud">
+  </div>
+
+
+  <div class="middle_container">
+    <div class="profile">
+      <img class='profile_pic' src="images/profile.png" alt="Adrian Kazi">
+      <h2>Hello.</h2>
+      <p class='not-p intro'>I'm Adrian S. Kazi, working currently as a sr. Analyst at Accenture. Here you'll find most of my realized projects.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2 class='my_skills'>My Skills</h2>
+      <div class="ds_ml">
+        <img class="ds_ml_photo" src="images/strategic-plan.png" alt="Data science and machine learning">
+        <h3>Data Science and Machine Learning</h3>
+        <p>I have university and corporate experience with creating data science and machine learning pipelines mainly focused around finance, fraud detection. I have also created projects for Kaggle of different topics. Technologies I am using are
+          SQL, Python and it's libraries for data area such as Sci-kit Learn, Pandas, Numpy and Tensorflow. Additionaly I accomplished bachelor degree from Quantitative Methods and Information Systems at Warsaw School of Economics.</p>
+      </div>
+      <div class="finance_skill">
+        <img class="finance_photo" src="images/statistic.png" alt="Finances">
+        <h3>Finance</h3>
+        <p>I have 3 years of experience in consulting companies and 2 years in fintech sector. I am focused around behavioral finance and fraud detection. I am also alumni of Finance and Accoutning bachelor degree at Warsaw School of Economics.</p>
+      </div>
+      <div class="web_dev">
+        <img class="web_dev_photo" src="images/growth.png" alt="Graphics and Web dev">
+        <h3>Graphics and Web development</h3>
+        <p>My experience of this area is focused around freelancing for small companies, such as restaurants and marketing consulting firms. Technologies that are in use are Figma, Pixelmator, HTML/CSS, Bootstrap, Javascript, Git, JQuery, SQL,
+          Node.js, MongoDB, Mongoose and React.js.</p>
+      </div>
+      <div class="robotic_skills">
+        <img class="web_dev_photo" src="images/growth.png" alt="Graphics and Web dev">
+        <h3>Robotics</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla esse eius nihil deleniti, provident rerum architecto, labore mollitia ipsa reiciendis qui dicta ad suscipit dolore ducimus magnam necessitatibus autem! Eos, doloremque. Iusto
+          neque sequi expedita voluptatibus alias nisi commodi velit facere, ipsam in soluta eligendi distinctio vel quos necessitatibus tempora?</p>
+      </div>
+      <br>
+    </div>
+    <hr>
+    <div class='portfolio'>
+      <h2>Projects</h2>
+
+
+
+        <!-- <div id="carouselExampleControls" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-inner">
+            <div class="carousel-item active" style='background-color:red;'>
+              <p>First Slide</p>
+              <img src="..." class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" style='background-color:blue;'>
+              <p>Second Slide</p>
+              <img src="..." class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" style='background-color:green;'>
+              <p>Third Slide</p>
+              <img src="..." class="d-block w-100" alt="...">
+            </div>
+
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div> -->
+
+
+
+      <div class='ds_ml_port'>
+        <h3>Data Science and Machine Learning</h3>
+        <div class="project-content">
+          <a class='link' target=blank href="https://colab.research.google.com/drive/1a6mQGPWw6VgPVFzl9FFaABWtZ5y2Ur0P?usp=sharing">Money laundering and conviction articles detection</a><br>
+          <small><i>16-10-2021</i></small>
+          <p>
+            Application created for money laundering articles detection, then from positively detected articles additional detection was provided to answer wether the article was about conviction or allegation. For detailed project, dataset and
+            solution information please visit project site.
+          </p>
+          <a target=_blank href="https://github.com/AdrianSaati/money-laundering-and-conviction-articles-detection"><img class='github_reference_icon' src="images/pngegg.png" alt="GitHub"></a>
+          <br>
+        </div>
+        <div class="project-content">
+          <a class='link' target=blank href="https://colab.research.google.com/drive/1L-S9A2WIoXYaRCKOqmVqA-33XmyY7IBF?usp=sharing">Google brain - Ventilation pressure prediction</a><br>
+          <small><i>01-06-2021</i></small>
+          <p>
+            Ventilation pressure prediction was a task of Google competition provided on Kaggle. For prediction I used Recurent Neural Network with score of <i>4.3539</i> evaluated by <i>|predicted_pressure - actual_pressure|</i>. Please visit Kaggle
+            <a class='link' href="https://www.kaggle.com/competitions/ventilator-pressure-prediction/overview" target=blank>reference</a> for more project information.
+          </p>
+          <a target=_blank href="https://github.com/AdrianSaati/Google-brain-Kaggle-competition"><img class='github_reference_icon' src="images/pngegg.png" alt="GitHub"></a>
+          <br>
+        </div>
+        <div class="project-content">
+          <a class='link' target=blank href="https://colab.research.google.com/drive/1GIP1SnrcucDK6STMI2ototfB2LJcBwmN?usp=sharing">MNIST - Digit recognition</a><br>
+          <small><i>01-04-2021</i></small>
+          <p>
+            Task for digit recognition was Kaggle based. Approach I used for training the model was Deep Neural Network with 10 inner layers and ReLu activation function, Adam optimizer and Sparse Categorical Entropy as loss function. The outcome I
+            achieved was 98.94% of Training model final accuracy and 97.53% of Validation accuracy. MNIST was a dataset used for the project.
+            For more project information please <a class='link' href="https://www.kaggle.com/c/digit-recognizer/overview" target=blank>refer</a> to Kaggle project site.
+          </p>
+          <a target=_blank href="https://github.com/AdrianSaati/Digit-recognition"><img class='github_reference_icon' src="images/pngegg.png" alt="GitHub"></a>
+          <br>
+        </div>
+        <div class="project-content">
+          <a class='link' target=blank href="https://colab.research.google.com/drive/11XQvaUxBHIlvW2Mv5FQw8ZtmbulSQJlo?usp=sharing">Stochastic Gradient Descent</a><br>
+          <small><i>24-11-2021</i></small>
+          <p>
+            Project was part of Statistical Methods subject on Quantitative Methods in Economics and Information System major. Within the project I tried to explain on examples how Stochastic Gradient Descent works. All work was done in Python. Due
+            to the fact major was in Polish language, whole project is also in Polish.
+          </p>
+          <a target=_blank href="https://github.com/AdrianSaati/Stochastic-Gradient-Descent"><img class='github_reference_icon' src="images/pngegg.png" alt="GitHub"></a>
+          <br>
+        </div>
+        <div class="project-content">
+          <a class='link' target=blank href="https://colab.research.google.com/drive/1FDgCnj2LmXILFczyTshiGPof9ra14AV_#scrollTo=qzXcmm1_HSga">Kaggle - How am I feeling?</a><br>
+          <small><i>22-11-2021</i></small>
+          <p>
+            Kaggle based project on facial recognition. Project was about to train the model to detect humans mood from photos. For training I've used 3 different models sucha as Random Forest Classifier, Decission Tree and deep learning Sequential
+            Modelling. Deep learning model performed best with an actegorization accuracy of 74% on validation data. For more information about the project please <a class='link'
+              href="https://www.kaggle.com/competitions/how-am-i-feeling-tb2109/overview">refer</a> to Kaggle project page.
+          </p>
+          <a target=_blank href="https://github.com/AdrianSaati/Kaggle---How-am-I-feeling"><img class='github_reference_icon' src="images/pngegg.png" alt="GitHub"></a>
+          <a target=_blank href="https://www.kaggle.com/code/adriansaati/kaggle-how-am-i-feeling-rfc-tree-seq-model/edit"><img class='github_reference_icon' src="images/kaggle.png" alt="GitHub"></a>
+          <br>
+        </div>
+        <div class="project-content">
+          <a class='link' target=blank href="https://colab.research.google.com/drive/1ItlqBGjfdb4tJEa8zQ5q2u7DxHITUv1F?usp=sharing">RNN (NLP)</a><br>
+          <small><i>29-09-2021</i></small>
+          <p>
+            RNN project on NLP with Python Tensorflow.
+          </p>
+          <a target=_blank href="https://github.com/AdrianSaati/RNN-NLP-"><img class='github_reference_icon' src="images/pngegg.png" alt="GitHub"></a>
+          <br>
+        </div>
+        <div class="project-content">
+          <a class='link' target=blank href="https://colab.research.google.com/drive/1Mq2XhXKUjW_G4kigi6SWffRsuvOssVFd#scrollTo=S05Fi4ucBpMI">Natural Language Processing for disaster Tweets</a><br>
+          <small><i>26-09-2021</i></small>
+          <p>
+            Detecting disaster Tweets project was based on Kaggle comptetition. Within the project I used CountVectorizer function from SKlearn library for tokenization. After that I compared Naive Bayes to Ridge Regression algorithm with cross
+            validation. At the end of project you can find "curiosity check", where I do compare predictions to actual content. For more project details please <a class='link' href="https://www.kaggle.com/competitions/nlp-getting-started">refer</a>
+            to competition site.
+          </p>
+          <a target=_blank href="https://github.com/AdrianSaati/Natural-Language-Processing-with-Disaster-Tweets"><img class='github_reference_icon' src="images/pngegg.png" alt="GitHub"></a>
+          <a target=_blank href="https://www.kaggle.com/code/adriansaati/naive-bayes-vs-ridge-regression-cross-val-78#Curiosity-check:)"><img class='github_reference_icon' src="images/kaggle.png" alt="GitHub"></a>
+          <br>
+        </div>
+        <div class="project-content">
+          <a class='link' target=blank href="https://colab.research.google.com/drive/1GQSaanQMe83jDNTQZ8cgTo9PLl2WuEdW?usp=sharing">NLP movies reviews classification</a><br>
+          <small><i>23-08-2021</i></small>
+          <p>
+            Classifying movies reviews as positive or negative with Python and Logistic Regression with 80% of accuracy.
+          </p>
+          <a target=_blank href="https://github.com/AdrianSaati/NLP-movies-review-classification"><img class='github_reference_icon' src="images/pngegg.png" alt="GitHub"></a>
+          <br>
+        </div>
+        <div class="project-content">
+          <a class='link' target=blank href="https://colab.research.google.com/drive/1qaDRWM3JsWpt_otMnzh5ucuUteoyd_ef?usp=sharing">Machine Learning Bootcamp</a><br>
+          <small><i>28-08-2021</i></small>
+          <p>
+            Notebook is assembled from 86 small machine learning tasks in Python. Project was part of Udemy course. Course was provided in Polish language that's why all notebook content is also in Polish language.
+          </p>
+          <a target=_blank href="https://github.com/AdrianSaati/-Machine-Learning-Bootcamp-w-j-zyku-Python-cz.III---wiczenia.ipynb"><img class='github_reference_icon' src="images/pngegg.png" alt="GitHub"></a>
+          <br>
+        </div>
+        <div class="project-content">
+          <a class='link' target=blank href="https://colab.research.google.com/drive/13J20Jkv4P42kkCL-DyEa0_wbmOBxxaG6?usp=sharing">PCA - case study</a><br>
+          <small><i>02-08-2021</i></small>
+          <p>
+            Dimensionality reduction project with PCA by SciKit Learn on images classification from Keras cifar10.
+          </p>
+          <a target=_blank href="https://github.com/AdrianSaati/PCA---case-study"><img class='github_reference_icon' src="images/pngegg.png" alt="GitHub"></a>
+          <br>
+        </div>
+        <div class="project-content">
+          <a class='link' target=blank href="https://colab.research.google.com/drive/1qaDRWM3JsWpt_otMnzh5ucuUteoyd_ef?usp=sharing">Titanic - Machine Learning from disaster</a><br>
+          <small><i>14-04-2021</i></small>
+          <p>
+            Project was part of Kaggle competition of detecting wether Titanic's passenger survived or not based on demographic data. Since this is classification problem I compared several classification algorithms such as: Logistic Regression,
+            Decission Tree, Random Forest, Support Vector Machines and K Nearest Neighbors. Eventually Random Forest was the one with highest accuracy of 81.56% on test data. Validation score on Kaggle was equal to 78%. For more detailed project
+            information please <a class='link' href="https://www.kaggle.com/competitions/titanic">refer</a> to Kaggle project site.
+          </p>
+          <a target=_blank href="https://github.com/AdrianSaati/-Machine-Learning-Bootcamp-w-j-zyku-Python-cz.III---wiczenia.ipynb"><img class='github_reference_icon' src="images/pngegg.png" alt="GitHub"></a>
+          <a target=_blank href="https://www.kaggle.com/code/adriansaati/kaggle-titanic123123/notebook"><img class='github_reference_icon' src="images/kaggle.png" alt="Kaggle"></a>
+          <br>
+        </div>
+        <div class="project-content">
+          <a class='link' target=blank href="https://colab.research.google.com/drive/1WicxfnzS_BSFPWp6kSiWyo-lBfWuGbUG?usp=sharing">Perceptron implemntation</a><br>
+          <small><i>03-03-2021</i></small>
+          <p>
+            Machine Learning perceptron implementation in Python.
+          </p>
+          <a target=_blank href="https://github.com/AdrianSaati/Perceptron-Implementation"><img class='github_reference_icon' src="images/pngegg.png" alt="GitHub"></a>
+          <br>
+        </div>
+        <div class="project-content">
+          <a class='link' target=blank href="https://colab.research.google.com/drive/1WicxfnzS_BSFPWp6kSiWyo-lBfWuGbUG?usp=sharing">Machine Learning algorithms</a><br>
+          <small><i>04-04-2022</i></small>
+          <p>
+            Notebook is self-created machine learning algorithms cheat sheet in Python. Within the project are some of the most important algorithms used in machine learning from every important area such as supervised learning, unsupervised
+            learning, anomaly detection, dimensionality reduction or deep learning. Cheat sheet is constantly evolving. All comments and titles are in Polish language.
+          </p>
+          <br>
+        </div>
+        <div class="project-content">
+          <a class='link' target=blank href="https://colab.research.google.com/drive/1gk2xTmKCbDaRtWSo-fFEU_tx75pBAXRY?usp=sharing">Decision Trees and Random Forests and graphviz</a><br>
+          <small><i>25-01-2022</i></small>
+          <p>
+            Simple classification with trees and visualisation with graphviz.
+          </p>
+          <a target=_blank href="https://github.com/AdrianSaati/Decision-Trees-and-Random-Forest-with-graphviz"><img class='github_reference_icon' src="images/pngegg.png" alt="GitHub"></a>
+          <br>
+        </div>
+        <div class="project-content">
+          <a class='link' target=blank href="https://colab.research.google.com/drive/1qpaaYEjXrsaev7zvtFvOeAvTNfBSbcbA?usp=sharing">Benford's law playground</a><br>
+          <small><i>21-02-2021</i></small>
+          <p>
+            Benford's law is often used by IRS to detect potential tax frauds. In this project I used Benford's law to detect authenticity of Polish president election and COVID-19 geographic distribution. To compare distribution of researched
+            dataset first digits and to benford's distribution I used Kolmogorov-Smirnov Test.
+          </p>
+          <a target=_blank href="https://github.com/AdrianSaati/Benford-s-Law-playground"><img class='github_reference_icon' src="images/pngegg.png" alt="GitHub"></a>
+          <br>
+        </div>
+        <div class="project-content">
+          <a class='link' target=blank href="https://colab.research.google.com/drive/14QWSDXoQBGTeE4-qi6UB-XJNP1ouMKzQ?usp=sharing">Marketing research - Optimization of website visits</a><br>
+          <small><i>11-12-2020</i></small>
+          <p>
+            Project is based on marketing research, by which I tried to advice how to optimize website visits based on provided dataset. For that reason I used Linear Regression algorithm and Correlation analysis. Dataset consists of 3 variables,
+            which are Date, Hour and Visits. At the end of a project you'll find section with slides summing up the research and conclusions about the dataset and recommended actions by the owner.
+          </p>
+          <a target=_blank href="https://github.com/AdrianSaati/Marketing-task"><img class='github_reference_icon' src="images/pngegg.png" alt="GitHub"></a>
+          <br>
+        </div>
+        <div class="project-content">
+          <a class='link' target=blank href="https://github.com/AdrianSaati/Machine-Learning-Stanford-Coursera-course">Coursera by Stanford - Machine Learning course</a><br>
+          <small><i>11-12-2020</i></small>
+          <p>
+            Coursera based Stanford course on machine learning in Matlab, basically it was a deep dive in simple ml algorithms.
+          </p>
+          <br>
+        </div>
+        <div class="project-content">
+          <a class='link' target=blank href="https://colab.research.google.com/drive/1vjkkeZStQN6N27SEtY4GbwUCTr5rcxu-?usp=sharing">Udemy - Basic data visualization in Python</a><br>
+          <small><i>07-07-2020</i></small>
+          <p>
+            Data Visualization in Python as part of Udemy course.
+          </p>
+          <a target=_blank href="https://github.com/AdrianSaati/Data-visualization-in-Python"><img class='github_reference_icon' src="images/pngegg.png" alt="GitHub"></a>
+          <br>
+        </div>
+
+      </div>
+      <div class='finance_port'>
+        <h3>Finance and Econometrics</h3>
+        <div class="project-content" style='text-align:justify;'>
+          <a class='link' target=blank href="https://colab.research.google.com/drive/1LT96v3M8_SrH4MkIFTkH5XnjlwY08rpI?usp=sharing">Warsaw School of Economics QMEIS - Fraud Rank App</a><br>
+          <small><i>21-07-2022</i></small>
+          <p>
+            In Application I took 3 types of frauds which are Money Mule, Credit Card Credential Theft and Authorized Push Payments. To detect each crime I used 3 self-created variables which are
+          <ul>
+            <li>
+              sameInOut - sum and count of transit transactions, so count of pairs of transactions where one is incoming and one outgoing and both are in the same amount
+            </li>
+            <li>
+              atm - sum and count of cash withdrawal transactions
+            </li>
+            <li>
+              newRecipients - sum and count of transactions to new recipients in a given month
+            </li>
+          </ul>
+          After creating variables I used Facebook Prophet model for anomaly detection among variables for each customer in each month. After that I created Fraud Rank, which is simply descending rankng of absolute error between empirical value,
+          detected as anomaly and predicted value defined by Prophet. Model is about to serve AML analyst for prioritizing cases not for rejecting any case by defining any customer as not suspicious. Dataset used for project is real data coming from
+          Czech bank, data was cleared from any personal data, for more information please <a target=_blank class='link' href="https://web.archive.org/web/20161019192412/http://lisp.vse.cz/pkdd99/berka.htm">refer</a> to dataset website.
+          </p>
+          <a target=_blank href="https://github.com/AdrianSaati/Warsaw-School-of-Economics-QMEIS---Fraud-Rank-App"><img class='github_reference_icon' src="images/pngegg.png" alt="GitHub"></a>
+          <br>
+        </div>
+        <div class="project-content">
+          <a class='link' target=blank href="https://colab.research.google.com/drive/164SHwBvHH73UqAH0cAFcm1RJyhXoKKrL?usp=sharing">VAR Econometric model for inflation prediction</a><br>
+          <small><i>09-12-2021</i></small>
+          <p>
+            VAR model project for Polish Harmonised Indices of Consumer Prices (HICP) prediction using 3 independent variables such as: M3, QGDP and Polish reference rate. Project was made for Econometric classes at Warsaw School of Economics for
+            passing the academc year with final grade of 5.0. Because of that language of the content within the project is Polish.
+          </p>
+          <a target=_blank href="https://github.com/AdrianSaati/VAR-Econometric-model-for-inflation-prediction"><img class='github_reference_icon' src="images/pngegg.png" alt="GitHub"></a>
+          <br>
+        </div>
+        <div class="project-content">
+          <a class='link' target=blank href="https://colab.research.google.com/drive/1GRSZmPDsP6rQeKmpbiaSw2JUWdknYrQ8?usp=sharing">Google's stocks prices prediction</a><br>
+          <small><i>20-09-2020</i></small>
+          <p>
+            In the project I took provided Google prices from 19.08.2004 up to 01.04.2021 and tried to predict prices for next 9 months. In model I used multivariate regression algorithm for training, however there are far more advanced and more
+            precise algorithm such as LSTM. Predictions were able to detect COVID-19 prices drop. Even though model predicted dump it need far more adjustments before trying to use it for real money investing.
+          </p>
+          <a target=_blank href="https://github.com/AdrianSaati/Google-s-stocks-prices-prediction"><img class='github_reference_icon' src="images/pngegg.png" alt="GitHub"></a>
+          <br>
+        </div>
+        <div class="project-content">
+          <a class='link' target=blank href="https://colab.research.google.com/drive/1GRSZmPDsP6rQeKmpbiaSw2JUWdknYrQ8?usp=sharing">Asseco's Codeplay Hackathon - Fraud detector</a><br>
+          <small><i>24-10-2020</i></small>
+          <p>
+            Fraud detector was part of Asseco Codeplay 2020 Hackathon. With our team we developed 3 steps fraud detection system, which includes logistic regression trained on already labeled data and provided by bank, KPMG's demographic-psychologic
+            profiling of usual fraudsters and Benford's law run on transaction numbers of each customer. After model run each customer was about to receive 1, 2 or 3 alerts. Model wasn't created for excluding customers from circle of suspects,
+            instead it was rather a prioritization system for AML analysts to handle most suspicious customer first. Project was created in a duration of 4 hours and pushed our team to the final 10 out of more than 100 teams, however code in not
+            finalized and debugged. Ideas from this event are being used for further development on different projects.
+          </p>
+          <a target=_blank href="https://github.com/AdrianSaati/Fraud-Detector"><img class='github_reference_icon' src="images/pngegg.png" alt="GitHub"></a>
+          <br>
+        </div>
+        <div class="project-content">
+          <a class='link' target=blank href="https://colab.research.google.com/drive/1vgFI97GKDtK7SvMHlWjF60HN5VEn56Sq?usp=sharing">Predicting future sales</a><br>
+          <small><i>26-09-2021</i></small>
+          <p>
+            Project was Kaggle based. The task is to predict future sales of the shop, thus we have regression type problem. For this specific task I used Lasso Regression algorithm with final RMSE of 1.187. For more detailed information about the
+            project please <a class='link' href="https://www.kaggle.com/c/competitive-data-science-predict-future-sales">refer</a> to Kaggle project site.
+          </p>
+          <a target=_blank href="https://github.com/AdrianSaati/Predict-Future-Sales---Lasso-Regression"><img class='github_reference_icon' src="images/pngegg.png" alt="GitHub"></a>
+          <a target=_blank href="https://www.kaggle.com/code/adriansaati/predict-future-sales-lasso-regression"><img class='github_reference_icon' src="images/kaggle.png" alt="Kaggle"></a>
+          <br>
+        </div>
+        <div class="project-content">
+          <a class='link' target=blank href="https://colab.research.google.com/drive/1Pa4lQ9YoMgN4F3l7yVzvM3xIQmehmpsO?usp=sharing">Statistic calculator</a><br>
+          <small><i>06-06-2020</i></small>
+          <p>
+            Descriptive statistics calculator coded fully in Python. For coding part I have used only power and square root functions from math library. The aim of the project was to developed algorithms by myslef as I would create descriptive
+            statistic calculator from scratch. Features covered within the calcualtor are: Mean, Standard Seviation, Variance, Unbiased Variance, Remainder Variance, Quartile Deviation, Coefficient of Variation, Lorentz Concetration Index, Third
+            Central Moment, Standarized Third Central Moment, Fourth Central Moment and Standarized Fourth Central Moment.
+          </p>
+          <a target=_blank href="https://github.com/AdrianSaati/Statistic-Calculator"><img class='github_reference_icon' src="images/pngegg.png" alt="GitHub"></a>
+          <br>
+        </div>
+        <div class="project-content">
+          <a class='link' target=blank href="https://github.com/AdrianSaati/Monte-Carlo-probability-method-in-R">Monte Carlo probability method</a><br>
+          <small><i>07-06-2020</i></small>
+          <p>
+            Simple Monte Carlo probability method coded in R.
+          </p>
+          <br>
+        </div>
+        <div class="project-content">
+          <a class='link' target=blank href="https://github.com/AdrianSaati/SF-Salaries-Data-Processing">SF Salaries data processing</a><br>
+          <small><i>03-06-2020</i></small>
+          <p>
+            Basic Python Pandas salaries data analysis.
+          </p>
+          <br>
+        </div>
+      </div>
+
+
+
+      <!-- WEBDEV -->
+      <div class='web_dev_port'>
+        <h3>Web Development</h3>
+        <div class="project-content">
+          <a class='link' target=blank href="https://adriansaati.github.io/Simon-Game/">Simon Game</a><br>
+          <small><i>16-10-2020</i></small>
+          <p>
+            Simon Game developed in HTML/CSS/Javascript/jQuery. Game is memory based challenge where user has to click on the displayed boxes in a given order.
+          </p>
+          <a target=_blank href="https://github.com/AdrianSaati/Simon-Game"><img class='github_reference_icon' src="images/pngegg.png" alt="GitHub"></a>
+          <br>
+        </div>
+        <div class="project-content">
+          <a class='link' target=blank href="https://adriansaati.github.io/Restaurant-website/index.html">Restaurant website</a><br>
+          <small><i>19-06-2020</i></small>
+          <p>
+            First webdev project for restaurant. Whole website was desinged only with HTML and CSS.
+          </p>
+          <a target=_blank href="https://github.com/AdrianSaati/Restaurant-website"><img class='github_reference_icon' src="images/pngegg.png" alt="GitHub"></a>
+          <br>
+        </div>
+        <div class="project-content">
+          <a class='link' target=blank href="https://adriansaati.github.io/Lofi-kit/">Lofi music kit</a><br>
+          <small><i>04-10-2022</i></small>
+          <p>
+            Lofi keyboard music kit made in JS.
+          </p>
+          <a target=_blank href="https://github.com/AdrianSaati/Lofi-kit"><img class='github_reference_icon' src="images/pngegg.png" alt="GitHub"></a>
+          <br>
+        </div>
+        <div class="project-content">
+          <a class='link project-title' target=blank href="https://adriansaati.github.io/Dice-Game/index.html">Dice Game</a><br>
+          <small><i>28-09-2022</i></small>
+          <p>
+            Dice game built in HTML, CSS, Bootstrap and Javascript.
+          </p>
+          <a target=_blank href="https://github.com/AdrianSaati/Dice-Game"><img class='github_reference_icon' src="images/pngegg.png" alt="GitHub"></a>
+          <br>
+        </div>
+        <div class="project-content">
+          <a class='link project-title' target=blank href="https://adriansaati.github.io/Tindog/">Tindog</a><br>
+          <small><i>14-08-2022</i></small>
+          <!-- Dobrze by było wprowadzić poprawki do Tingoga bo sie troche rozjezdza -->
+          <p>
+            Layout of Tindog webapp built in HTML, CSS and Bootstrap. Project was a part of The Complete 2022 Web Development Bootcamp course on Udemy.
+          </p>
+          <a target=_blank href="https://github.com/AdrianSaati/Tindog"><img class='github_reference_icon' src="images/pngegg.png" alt="GitHub"></a>
+          <br>
+        </div>
+      </div>
+
+
+
+
+      <!-- ROBOTICS 
+      <div class='robotics_port'>
+        <h3>Robotics</h3>
+        <a class='link' href="">Project name</a><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, possimus. Veniam et placeat ducimus quod atque non dicta perspiciatis pariatur, animi iusto optio quasi sapiente odio! Labore vero ratione repellendus reiciendis quaerat
+          veritatis perspiciatis, ducimus laudantium. Ipsam optio rerum quis reprehenderit labore necessitatibus eveniet distinctio fuga cum, nostrum esse mollitia.</p><br>
+        <a class='link' href="">Project name</a><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, possimus. Veniam et placeat ducimus quod atque non dicta perspiciatis pariatur, animi iusto optio quasi sapiente odio! Labore vero ratione repellendus reiciendis quaerat
+          veritatis perspiciatis, ducimus laudantium. Ipsam optio rerum quis reprehenderit labore necessitatibus eveniet distinctio fuga cum, nostrum esse mollitia.</p><br>
+        <a class='link' href="">Project name</a><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, possimus. Veniam et placeat ducimus quod atque non dicta perspiciatis pariatur, animi iusto optio quasi sapiente odio! Labore vero ratione repellendus reiciendis quaerat
+          veritatis perspiciatis, ducimus laudantium. Ipsam optio rerum quis reprehenderit labore necessitatibus eveniet distinctio fuga cum, nostrum esse mollitia.</p><br>
+      </div>-->
+    </div>
+    <hr>
+    <div class="contact_me">
+      <h2>Get In Touch</h2>
+      <h3>Above are my main skills but I'm always open for new experiences.</h3>
+      <p class='not-p'>If you find my knowledge useful, let's see if I can help you!</p><br>
+      <div class="contact_icons">
+        <a class='icon' href="mailto:adrian.s.kazi@gmail.com" target='_blank'><img class='icon_img' src="https://mailmeteor.com/logos/assets/PNG/Gmail_Logo_512px.png" alt="Gmail"></a>
+        <a class="icon" href="https://www.linkedin.com/in/adrian-s-kazi-29135a193/" target='_blank'><img class="icon_img" src="https://blog.waalaxy.com/wp-content/uploads/2021/01/Linkedin-Logo-2048x1280.png" alt="LinkedIn"></a>
+        <a class="icon" href="https://github.com/AdrianSaati" target='_blank'><img class='icon_img' src="images/GitHub-Logo.png" alt="GitHub"></a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="bottom_container">
+    <p class='not-p'>© 2022 Adrian S. Kazi.</p>
+  </div>
+
+
+</body>
+
+</html>
