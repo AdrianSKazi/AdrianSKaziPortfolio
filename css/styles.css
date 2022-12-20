@@ -11,6 +11,11 @@ body {
 
 a {
   color: #00ADB5;
+  opacity: 80%
+}
+
+a:hover {
+  opacity: 100%
 }
 
 h1 {
@@ -44,6 +49,10 @@ hr {
 
 .adrian {
   font-family: 'Montserrat', sans-serif;
+}
+
+#profile-photo {
+  border-radius: 50%;
 }
 
 .s {
