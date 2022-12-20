@@ -39,9 +39,9 @@ p {
 }
 
 hr {
-  border-top: 10px ridge;
+  border-top: 10px solid;
   opacity: 20%;
-  width: 6vw;
+  
   border-bottom: none;
   border-left: none;
   border-right: none;
