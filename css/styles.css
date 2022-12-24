@@ -41,7 +41,7 @@ p {
 hr {
   border-top: 10px dotted;
   opacity: 20%;
-
+  width: 10%;
   border-bottom: none;
   border-left: none;
   border-right: none;
