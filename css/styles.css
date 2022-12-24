@@ -39,7 +39,7 @@ p {
 }
 
 hr {
-  border-top: 10px solid;
+  border-top: 10px dotted;
   opacity: 20%;
 
   border-bottom: none;
@@ -50,7 +50,7 @@ hr {
 .adrian {
   font-family: 'Montserrat', sans-serif;
 
-  
+
 }
 
 #profile-photo {
